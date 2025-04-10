@@ -25,7 +25,7 @@ header {
 }
 
 footer {
-    text-align: center
+    text-align: center;
 }
 
 ul a {
@@ -39,35 +39,38 @@ ul a:hover {
 }
 
 h2 {
-    text-align: center
+    text-align: center;
         
 }
 
 p { 
-text-indent: 50px
+text-indent: 50px;
 }
 
 nav ul{ 
     list-style-type: none;
+    padding: 0%;
 }
 nav a:hover {
     text-decoration: none;
     background-color: darkorange;
-    color: #1a1a1a
+    color: #1a1a1a;
 }
 nav {
     text-align: center;
     margin: 15px 0;
     padding: px;
     background-color: #1a1a1a;
-    border-radius: 10px
+    border-radius: 10px;
+    
 }
 nav li {
     display: inline-block;
+    
 }
 nav li a {
     color: #ff4040;
-    margin: 15px;
+    margin: 0 20px;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
@@ -75,17 +78,18 @@ nav li a {
     height: 40px; 
     line-height: 40px;
     
+    
 }
 hr {
-    color: brown
+    color: brown;
 }
 
 .h3char{
-    text-align: center
+    text-align: center;
 }
 
 #h1char {   
-    text-align: center
+    text-align: center;
 }
 .banner {  
 display: block;
@@ -100,7 +104,7 @@ height: 50px;
     text-shadow: 1px 1px 1px #ff4040;
 }
 .character_name{
-    text-shadow: 1px 1px 1px#ff4040
+    text-shadow: 1px 1px 1px#ff4040;
 }
 #cooper_img {  
 border: outset;
@@ -114,10 +118,10 @@ border-radius: 10%;
     border-color: #CB874E;
     display: block;
     margin: auto;
-    border-radius: 10%
+    border-radius: 10%;
 }
 #charmain {
- display: flex
+ display: flex;
 }
 #col1 {
     width: 50%;
