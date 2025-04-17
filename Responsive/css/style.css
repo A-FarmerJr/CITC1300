@@ -1,9 +1,9 @@
 /* Global Styles */ 
 
-Body {
+body {
     background-color: #1a1a1a;
     color: #d3d3d3;
-    font-family: "franklin gothic medium', arial narrow"
+    font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
 }
 
 img {
@@ -94,7 +94,7 @@ hr {
 }
 
 /* Desktop Styles */ 
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px){}
     #container { 
         width: 100%;
         margin: 20px auto; 
@@ -108,9 +108,7 @@ hr {
     nav li a {
         background-color: #590505;
     }
-       
         .col1 {
-            
      width: 50%;
     border: ridge; 
     border-color:brown;
@@ -137,12 +135,10 @@ hr {
     border-radius: 10%;
             
         }
-        
         .cooper_img{
             border: outset;
 border-color: #9E0B16;
 margin: auto;
-border-radius: 10%;
-            
+border-radius: 10%;       
         }
     }
