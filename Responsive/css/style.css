@@ -83,6 +83,9 @@ hr {
     ul a{
         color: #d9320d
     }
+    header {
+    text-align: center
+}
     /* Tablet Styles */
 
 @media (min-width: 769px){
@@ -95,6 +98,9 @@ hr {
         display: inline-block;
         margin: 5px;
     } 
+}
+    header {
+    text-align: center
 }
 
 /* Desktop Styles */ 
@@ -146,3 +152,6 @@ margin: auto;
 border-radius: 10%;       
         }
     }
+header {
+    text-align: center
+}
