@@ -217,11 +217,11 @@ footer {
         height: 160px;
     }
     .header-text h1 {
-        font-size: 1.8em;
+        font-size: 1.6em;
         white-space: nowrap;
     }
     .header-text p {
-        font-size: 1em;
+        font-size: 0.8em;
         white-space: nowrap; 
     }
     .media-player[type="video"] {
