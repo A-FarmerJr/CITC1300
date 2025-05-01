@@ -31,6 +31,8 @@ header {
     transform: translate(-50%, -50%);
     color: #BE552F;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+    max-width: 90%;
 }
 .header-text h1 {
     margin: 0;
@@ -216,9 +218,11 @@ footer {
     }
     .header-text h1 {
         font-size: 2em;
+        white-space: nowrap;
     }
     .header-text p {
         font-size: 1.1em;
+        white-space: nowrap; 
     }
     .media-player[type="video"] {
         height: 160px;
